@@ -1,0 +1,279 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.7",
+  "deps": {
+    "class-variance-authority": "^0.6.0",
+    "@ng-icons/core": "^25.1.0",
+    "@ng-icons/lucide": "^26.3.0",
+    "clsx": "^1.2.1",
+    "@spartan-ng/cli": "^0.0.1-alpha.337",
+    "@spartan-ng/ui-accordion-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-alertdialog-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-avatar-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-checkbox-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-collapsible-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-command-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-core": "0.0.1-alpha.336",
+    "@spartan-ng/ui-dialog-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-hovercard-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-label-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-menu-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-popover-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-progress-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-radiogroup-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-select-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-separator-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-sheet-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-switch-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-table-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-tabs-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-toggle-brain": "0.0.1-alpha.336",
+    "@spartan-ng/ui-tooltip-brain": "0.0.1-alpha.336",
+    "@angular/animations": "^17.2.0",
+    "@angular/common": "^17.2.0",
+    "@angular/compiler": "^17.2.0",
+    "@angular/core": "^17.2.0",
+    "@angular/forms": "^17.2.0",
+    "@angular/platform-browser": "^17.2.0",
+    "@angular/platform-browser-dynamic": "^17.2.0",
+    "@angular/router": "^17.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.2.2",
+    "@angular/cli": "^17.2.2",
+    "@angular/compiler-cli": "^17.2.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.3.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "ngx-spartan": [
+        {
+          "file": ".editorconfig",
+          "hash": "6686520031028425313"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13044518069027839699"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "5331566439708925252"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17038929134016848735"
+        },
+        {
+          "file": ".vscode/settings.json",
+          "hash": "6999533095290454328"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "5336636969995539451"
+        },
+        {
+          "file": "README.md",
+          "hash": "12501343177154981250"
+        },
+        {
+          "file": "angular.json",
+          "hash": "2657563069286757648"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "4125298362701993064"
+        },
+        {
+          "file": "package.json",
+          "hash": "7431690476327825096",
+          "deps": [
+            "npm:class-variance-authority",
+            "npm:@ng-icons/core",
+            "npm:@ng-icons/lucide",
+            "npm:clsx",
+            "npm:@spartan-ng/cli",
+            "npm:@spartan-ng/ui-accordion-brain",
+            "npm:@spartan-ng/ui-alertdialog-brain",
+            "npm:@spartan-ng/ui-avatar-brain",
+            "npm:@spartan-ng/ui-checkbox-brain",
+            "npm:@spartan-ng/ui-collapsible-brain",
+            "npm:@spartan-ng/ui-command-brain",
+            "npm:@spartan-ng/ui-core",
+            "npm:@spartan-ng/ui-dialog-brain",
+            "npm:@spartan-ng/ui-hovercard-brain",
+            "npm:@spartan-ng/ui-label-brain",
+            "npm:@spartan-ng/ui-menu-brain",
+            "npm:@spartan-ng/ui-popover-brain",
+            "npm:@spartan-ng/ui-progress-brain",
+            "npm:@spartan-ng/ui-radiogroup-brain",
+            "npm:@spartan-ng/ui-select-brain",
+            "npm:@spartan-ng/ui-separator-brain",
+            "npm:@spartan-ng/ui-sheet-brain",
+            "npm:@spartan-ng/ui-switch-brain",
+            "npm:@spartan-ng/ui-table-brain",
+            "npm:@spartan-ng/ui-tabs-brain",
+            "npm:@spartan-ng/ui-toggle-brain",
+            "npm:@spartan-ng/ui-tooltip-brain",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@types/jasmine",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "src/icon/hlm-icon.component.ts",
+          "hash": "18213435341901956166"
+        },
+        {
+          "file": "src/icon/index.ts",
+          "hash": "2460993375784729734"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "13920273272409441180"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "6948576654726503159"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-content.component.ts",
+          "hash": "3507254427344966727"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-group.directive.ts",
+          "hash": "15465533902161413590"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-label.directive.ts",
+          "hash": "6324758519298439515"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-option.directive.ts",
+          "hash": "8824760219202077366"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-scroll-down.directive.ts",
+          "hash": "6655340816834989743"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-scroll-up.directive.ts",
+          "hash": "15855558348858284619"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-trigger.directive.ts",
+          "hash": "12437673377384186103"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select-value.component.ts",
+          "hash": "17358555441964526706"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select.component.ts",
+          "hash": "11045150009490739374"
+        },
+        {
+          "file": "src/select/brain/lib/brn-select.service.ts",
+          "hash": "9959870000660988798"
+        },
+        {
+          "file": "src/select/index.ts",
+          "hash": "12597031013403890624"
+        },
+        {
+          "file": "src/select/lib/hlm-select-content.directive.ts",
+          "hash": "13937491149168467115"
+        },
+        {
+          "file": "src/select/lib/hlm-select-group.directive.ts",
+          "hash": "13919766876731557640"
+        },
+        {
+          "file": "src/select/lib/hlm-select-label.directive.ts",
+          "hash": "7935529556460801609"
+        },
+        {
+          "file": "src/select/lib/hlm-select-option.component.ts",
+          "hash": "14691587468631752212"
+        },
+        {
+          "file": "src/select/lib/hlm-select-scroll-down.component.ts",
+          "hash": "5163915200375924015"
+        },
+        {
+          "file": "src/select/lib/hlm-select-scroll-up.component.ts",
+          "hash": "3372732116057973185"
+        },
+        {
+          "file": "src/select/lib/hlm-select-trigger.component.ts",
+          "hash": "5771200483906196378"
+        },
+        {
+          "file": "src/select/lib/hlm-select-value.directive.ts",
+          "hash": "17335361621497226302"
+        },
+        {
+          "file": "src/select/lib/hlm-select.directive.ts",
+          "hash": "8079319180995908087"
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "10108556867936245053"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "17337579397915052279"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "6830907402848794383"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "15575553540147145788"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
